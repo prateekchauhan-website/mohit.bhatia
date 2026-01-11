@@ -49,8 +49,10 @@ body {
   background: #071028;
   color: var(--text);
   background-image:url('/cricket-ground.jpg');
-  background-size:cover;
-  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 /* Container */
 .clone-root {
